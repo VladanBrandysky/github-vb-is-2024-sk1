@@ -11,4 +11,4 @@ Test 2024-09-26 18:51
 
 Test z lokálu 2024-10-02, 9:20
 
-Test z GitHubu: 2024-10-02, 9:35 (Tomáš Žižka)
+Test z GitHubu: 2024-10-02, 9:35 (Vladan Brandýský)
