@@ -1,6 +1,6 @@
 # github-tz-is-2024-sk1
 
-## toto je změna provedená na lokále
+## toto je první pokus o změnu provedená na lokále
 
 Vladan Brandýský
 v ramci predmetu IS
