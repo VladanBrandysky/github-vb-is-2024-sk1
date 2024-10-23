@@ -36,7 +36,50 @@ Console.WriteLine("Hello, World!");
             Console.WriteLine("Pro opakování programu stiskněte klávesu A");
             again = Console.ReadLine();
         }
-        
+
+
+
+
+
+
+
+
+
+
+
+
+        Console.WriteLine("\n\n Náhodná čísla:");
+        for(int i=0; i<n; i++) {
+            myArray[i]+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
         //cyklus pro generování čísel od 0 do 6
 
         if int = 0
