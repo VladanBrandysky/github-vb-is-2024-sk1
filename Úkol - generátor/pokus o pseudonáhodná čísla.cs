@@ -36,3 +36,12 @@ Console.WriteLine("Hello, World!");
             Console.WriteLine("Pro opakování programu stiskněte klávesu A");
             again = Console.ReadLine();
         }
+        
+        //cyklus pro generování čísel od 0 do 6
+
+        if int = 0
+        than printf ("nula")
+        if int < 0 
+        than printf ("zaporne")
+        if int > 0
+        than printf ("kladna")
