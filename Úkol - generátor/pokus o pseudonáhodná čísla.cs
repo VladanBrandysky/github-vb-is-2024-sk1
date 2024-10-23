@@ -1,4 +1,5 @@
 // Pokus o pseudo-náhodná čísla
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
 ﻿string again = "a";
         
