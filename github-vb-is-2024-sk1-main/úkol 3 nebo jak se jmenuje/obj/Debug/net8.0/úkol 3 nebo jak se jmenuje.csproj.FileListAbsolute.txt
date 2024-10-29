@@ -1,0 +1,15 @@
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\bin\Debug\net8.0\úkol 3 nebo jak se jmenuje.exe
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\bin\Debug\net8.0\úkol 3 nebo jak se jmenuje.deps.json
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\bin\Debug\net8.0\úkol 3 nebo jak se jmenuje.runtimeconfig.json
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\bin\Debug\net8.0\úkol 3 nebo jak se jmenuje.dll
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\bin\Debug\net8.0\úkol 3 nebo jak se jmenuje.pdb
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\úkol 3 nebo jak se jmenuje.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\úkol 3 nebo jak se jmenuje.AssemblyInfoInputs.cache
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\úkol 3 nebo jak se jmenuje.AssemblyInfo.cs
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\úkol 3 nebo jak se jmenuje.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\úkol 3 nebo jak se jmenuje.sourcelink.json
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\úkol 3 nebo jak se jmenuje.dll
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\refint\úkol 3 nebo jak se jmenuje.dll
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\úkol 3 nebo jak se jmenuje.pdb
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\úkol 3 nebo jak se jmenuje.genruntimeconfig.cache
+C:\Users\admin\Desktop\GitGitHub\github-vb-is-2024-sk1\github-vb-is-2024-sk1-1\Úkol - generátor\úkol 3 nebo jak se jmenuje\obj\Debug\net8.0\ref\úkol 3 nebo jak se jmenuje.dll
