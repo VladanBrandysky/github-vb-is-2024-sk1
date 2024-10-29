@@ -10,7 +10,7 @@ class Program {
             Console.WriteLine("****************************");
             Console.WriteLine("***** Výpis řady čísel *****");
             Console.WriteLine("****************************");
-            Console.WriteLine("******* Tomáš Žižka ********");
+            Console.WriteLine("*****Vladan Brandýský*******");
             Console.WriteLine("****************************");
             Console.WriteLine();
 
