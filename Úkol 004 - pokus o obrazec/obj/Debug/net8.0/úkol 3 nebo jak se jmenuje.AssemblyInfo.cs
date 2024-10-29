@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("úkol 3 nebo jak se jmenuje")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f9d2a771273df9c11968e454cdffe9683eee1fef")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb9283d77bde377191cea9dfeca6cefdf0dd3f3d")]
 [assembly: System.Reflection.AssemblyProductAttribute("úkol 3 nebo jak se jmenuje")]
 [assembly: System.Reflection.AssemblyTitleAttribute("úkol 3 nebo jak se jmenuje")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "C:\\Users\\vlada\\.nuget\\packages\\": {}
+    "C:\\Users\\admin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vlada\\OneDrive\\Plocha\\VYSOKÁ ŠKOLA\\GitHub\\github-vb-is-2024-sk1-1\\Úkol - generátor\\úkol 3 nebo jak se jmenuje\\úkol 3 nebo jak se jmenuje.csproj",
+      "projectUniqueName": "C:\\Users\\admin\\Desktop\\GitGitHub\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1-1\\Úkol - generátor\\úkol 3 nebo jak se jmenuje\\úkol 3 nebo jak se jmenuje.csproj",
       "projectName": "úkol 3 nebo jak se jmenuje",
-      "projectPath": "C:\\Users\\vlada\\OneDrive\\Plocha\\VYSOKÁ ŠKOLA\\GitHub\\github-vb-is-2024-sk1-1\\Úkol - generátor\\úkol 3 nebo jak se jmenuje\\úkol 3 nebo jak se jmenuje.csproj",
-      "packagesPath": "C:\\Users\\vlada\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vlada\\OneDrive\\Plocha\\VYSOKÁ ŠKOLA\\GitHub\\github-vb-is-2024-sk1-1\\Úkol - generátor\\úkol 3 nebo jak se jmenuje\\obj\\",
+      "projectPath": "C:\\Users\\admin\\Desktop\\GitGitHub\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1-1\\Úkol - generátor\\úkol 3 nebo jak se jmenuje\\úkol 3 nebo jak se jmenuje.csproj",
+      "packagesPath": "C:\\Users\\admin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\admin\\Desktop\\GitGitHub\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1-1\\Úkol - generátor\\úkol 3 nebo jak se jmenuje\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\vlada\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\admin\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -64,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.402/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
