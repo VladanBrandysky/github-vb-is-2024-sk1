@@ -9,12 +9,12 @@ class Program
         string input = Console.ReadLine();
 
         // Počítadla pro samohlásky, souhlásky a ostatní znaky
-        int vowelCount = 0;
-        int consonantCount = 0;
-        int otherCount = 0;
+        int samohlásky = 0;
+        int souhlásky = 0;
+        int ostatní = 0;
 
         // Definice samohlásek
-        string vowels = "aeiouyáéíóúýěáí";
+        string samo = "aeiouyáéíóúýěáí";
 
         // Procházení každého znaku v textu
         foreach (char c in input)
@@ -23,25 +23,25 @@ class Program
             if (char.IsLetter(c))
             {
                 // Zkontrolujeme, zda je znak samohláska
-                if (vowels.Contains(char.ToLower(c)))
+                if (samo.Contains(char.ToLower(c)))
                 {
-                    vowelCount++;
+                    samohlásky++;
                 }
                 else
                 {
-                    consonantCount++;
+                    souhlásky++;
                 }
             }
             // Pokud znak není písmeno, považujeme ho za "ostatní znak"
             else
             {
-                otherCount++;
+                ostatní++;
             }
         }
 
         // Výstup výsledků
-        Console.WriteLine($"Počet samohlásek: {vowelCount}");
-        Console.WriteLine($"Počet souhlásek: {consonantCount}");
-        Console.WriteLine($"Počet ostatních znaků: {otherCount}");
+        Console.WriteLine($"Počet samohlásek: {samohlásky}");
+        Console.WriteLine($"Počet souhlásek: {souhlásky}");
+        Console.WriteLine($"Počet ostatních znaků: {ostatní}");
     }
 }
