@@ -7,7 +7,7 @@ string again = "a";
             Console.WriteLine("*******************************************");
             Console.WriteLine("***** Generátor pseudonáhodných čísel *****");
             Console.WriteLine("*******************************************");
-            Console.WriteLine("************* Tomáš Žižka *****************");
+            Console.WriteLine("*************  *****************");
             Console.WriteLine("*******************************************");
             Console.WriteLine();
 
