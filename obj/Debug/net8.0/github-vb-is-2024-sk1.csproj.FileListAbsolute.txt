@@ -1,0 +1,5 @@
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\obj\Debug\net8.0\github-vb-is-2024-sk1.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\obj\Debug\net8.0\github-vb-is-2024-sk1.AssemblyInfoInputs.cache
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\obj\Debug\net8.0\github-vb-is-2024-sk1.AssemblyInfo.cs
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\obj\Debug\net8.0\github-vb-is-2024-sk1.csproj.CoreCompileInputs.cache
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\obj\Debug\net8.0\github-vb-is-2024-sk1.sourcelink.json

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1.csproj": {}
+    "c:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1.csproj": {
+    "c:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1.csproj",
+        "projectUniqueName": "c:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1.csproj",
         "projectName": "github-vb-is-2024-sk1",
-        "projectPath": "C:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1.csproj",
+        "projectPath": "c:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\github-vb-is-2024-sk1.csproj",
         "packagesPath": "C:\\Users\\vlada\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\obj\\",
+        "outputPath": "c:\\Users\\vlada\\OneDrive\\Plocha\\github-vb-is-2024-sk1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vlada\\AppData\\Roaming\\NuGet\\NuGet.Config"
