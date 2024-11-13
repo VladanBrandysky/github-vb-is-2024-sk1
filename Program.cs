@@ -1,4 +1,4 @@
-﻿using System.Security.Authentication.ExtendedProtection;
+﻿﻿using System.Security.Authentication.ExtendedProtection;
 
 string again = "a";
         
@@ -7,7 +7,7 @@ string again = "a";
             Console.WriteLine("*******************************************");
             Console.WriteLine("***** Generátor pseudonáhodných čísel *****");
             Console.WriteLine("*******************************************");
-            Console.WriteLine("*********** Vladan Brandysky ***************");
+            Console.WriteLine("************* Tomáš Žižka *****************");
             Console.WriteLine("*******************************************");
             Console.WriteLine();
 
@@ -48,16 +48,24 @@ string again = "a";
             }
 
             for(int i =0; i < n-1; i++) {
-                for(int j = 0; j < ; j++) {
-                    if(myArray[j] < myArray [j+1]) {
-                        int pom = myArray[j+1];
-                        myArray [j+1] = myArray [j];
-                        myArray[j] = pom;
+                for(int j = 0; j < n-i-1; j++) {
+                    if(myArray[j] > myArray[j+1]) {
+                        int tmp = myArray[j+1];
+                        myArray[j+1] = myArray[j];
+                        myArray[j] = tmp;
                     }
                 }
             }
+
+            Console.WriteLine("\n\n\nSeřazené pole");
+            for(int i=0; i<n; i++) {
+                Console.Write("{0}; ", myArray[i]); 
+            }    
+
+
+
             Console.WriteLine();
-            Console.WriteLine("Pro opakování programu stiskněte klávesu A");
+            Console.WriteLine("\n\nPro opakování programu stiskněte klávesu A");
             again = Console.ReadLine();
 
         }
