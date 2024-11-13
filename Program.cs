@@ -1,71 +1,105 @@
-﻿﻿using System.Security.Authentication.ExtendedProtection;
+﻿using System;
 
-string again = "a";
-        
-        while(again == "a") {
+class Program
+{
+    static void Main()
+    {
+        // Proměnná "again" uchovává rozhodnutí uživatele, zda chce program spustit znovu
+        string again = "a";
+
+        // Cyklus "while" pokračuje, dokud uživatel zadá "a" (pro opakování programu)
+        while (again.ToLower() == "a")
+        {
+            // Vyčistí konzoli, aby se text zobrazoval čistě bez předchozích výstupů
             Console.Clear();
+
+            // Tiskne nadpis programu na obrazovku
             Console.WriteLine("*******************************************");
             Console.WriteLine("***** Generátor pseudonáhodných čísel *****");
             Console.WriteLine("*******************************************");
-            Console.WriteLine("*************  *****************");
-            Console.WriteLine("*******************************************");
             Console.WriteLine();
 
+            // Zde uživatel zadává počet generovaných čísel
             Console.Write("Zadejte počet generovaných čísel (celé číslo): ");
             int n;
-            while(!int.TryParse(Console.ReadLine(), out n)) {
-                Console.Write("Nezadali jste celé číslo. Zadejte počet generovaných čísel znovu: ");
+            // Kontrola, zda uživatel zadal platné celé číslo a je větší než 0
+            while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
+            {
+                Console.Write("Nezadali jste kladné celé číslo. Zadejte počet generovaných čísel znovu: ");
             }
 
-            Console.Write("Zadejte dolní mez (celé číslo): ");
-            int dm;
-            while(!int.TryParse(Console.ReadLine(), out dm)) {
-                Console.Write("Nezadali jste celé číslo. Zadejte dolní mez znovu: ");
-            }
+            // Zadání dolní a horní meze s kontrolou, že dolní mez není větší než horní mez
+            int dm, hm;
+            do
+            {
+                // Zadání dolní meze
+                Console.Write("Zadejte dolní mez (celé číslo): ");
+                // Kontrola, zda je zadána hodnota jako celé číslo
+                while (!int.TryParse(Console.ReadLine(), out dm))
+                {
+                    Console.Write("Nezadali jste celé číslo. Zadejte dolní mez znovu: ");
+                }
 
-            Console.Write("Zadejte horní mez (celé číslo): ");
-            int hm;
-            while(!int.TryParse(Console.ReadLine(), out hm)) {
-                Console.Write("Nezadali jste celé číslo. Zadejte horní mez znovu: ");
-            }
+                // Zadání horní meze
+                Console.Write("Zadejte horní mez (celé číslo): ");
+                // Kontrola, zda je zadána hodnota jako celé číslo
+                while (!int.TryParse(Console.ReadLine(), out hm))
+                {
+                    Console.Write("Nezadali jste celé číslo. Zadejte horní mez znovu: ");
+                }
 
-            Console.WriteLine();
-            Console.WriteLine("==========================================");
+                // Zkontroluje, že dolní mez není větší než horní mez
+                if (dm > hm)
+                {
+                    Console.WriteLine("Dolní mez nemůže být větší než horní mez. Zadejte znovu.");
+                }
+            } while (dm > hm);
+
+            // Potvrdí zadání a vypíše hodnoty, které uživatel zadal
+            Console.WriteLine("\n==========================================");
             Console.WriteLine("Zadané hodnoty:");
             Console.WriteLine("Počet čísel: {0}; dolní mez: {1}; horní mez: {2}", n, dm, hm);
-            Console.WriteLine("==========================================");
-            Console.WriteLine();
+            Console.WriteLine("==========================================\n");
 
-            //deklarace pole    
+            // Vytvoří pole, do kterého se uloží náhodná čísla
             int[] myArray = new int[n];
-
+            // Vytvoří objekt "Random" pro generování náhodných čísel
             Random randomNumber = new Random();
 
-            Console.WriteLine("\n\nNáhodná čísla:");
-            for(int i=0; i<n; i++) {
-                myArray[i] = randomNumber.Next(dm, hm+1);
-                Console.Write("{0}; ", myArray[i]); 
+            // Generuje náhodná čísla a ukládá je do pole
+            Console.WriteLine("Náhodná čísla:");
+            for (int i = 0; i < n; i++)
+            {
+                // Generuje náhodné číslo mezi dolní a horní mezí
+                myArray[i] = randomNumber.Next(dm, hm + 1);
+                Console.Write("{0}; ", myArray[i]);
             }
 
-            for(int i =0; i < n-1; i++) {
-                for(int j = 0; j < n-i-1; j++) {
-                    if(myArray[j] > myArray[j+1]) {
-                        int tmp = myArray[j+1];
-                        myArray[j+1] = myArray[j];
+            // Seřazení pole vzestupně pomocí Bubble Sort algoritmu
+            for (int i = 0; i < n - 1; i++)
+            {
+                for (int j = 0; j < n - i - 1; j++)
+                {
+                    // Pokud je aktuální prvek větší než následující, prohodí je
+                    if (myArray[j] > myArray[j + 1])
+                    {
+                        int tmp = myArray[j + 1];
+                        myArray[j + 1] = myArray[j];
                         myArray[j] = tmp;
                     }
                 }
             }
 
-            Console.WriteLine("\n\n\nSeřazené pole");
-            for(int i=0; i<n; i++) {
-                Console.Write("{0}; ", myArray[i]); 
-            }    
+            // Vypíše seřazené pole
+            Console.WriteLine("\n\nSeřazené pole:");
+            for (int i = 0; i < n; i++)
+            {
+                Console.Write("{0}; ", myArray[i]);
+            }
 
-
-
-            Console.WriteLine();
-            Console.WriteLine("\n\nPro opakování programu stiskněte klávesu A");
+            // Zeptá se uživatele, zda chce program spustit znovu
+            Console.WriteLine("\n\nPro opakování programu stiskněte klávesu 'A'. Pro ukončení stiskněte jinou klávesu.");
             again = Console.ReadLine();
-
         }
+    }
+}
