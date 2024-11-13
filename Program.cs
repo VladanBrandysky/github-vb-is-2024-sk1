@@ -22,7 +22,7 @@ class Program
 
             // Zde uživatel zadává počet generovaných čísel
             Console.Write("Zadejte počet generovaných čísel (celé číslo): ");
-            int n;
+            int n = 0;  // inicializujeme n na 0, aby byla vždy předem určena hodnota
             // Kontrola, zda uživatel zadal platné celé číslo a je větší než 0
             while (!int.TryParse(Console.ReadLine(), out n) || n <= 0)
             {
@@ -81,17 +81,15 @@ class Program
             // Spustí měření času
             stopwatch.Start();
 
-            // Seřazení pole vzestupně pomocí Bubble Sort algoritmu
+            // Seřazení pole vzestupně pomocí Bubble Sort algoritmu s funkcemi myCompare a myChange
             for (int i = 0; i < n - 1; i++)
             {
                 for (int j = 0; j < n - i - 1; j++)
                 {
-                    // Pokud je aktuální prvek větší než následující, prohodí je
-                    if (myArray[j] > myArray[j + 1])
+                    // Pokud je aktuální prvek větší než následující, prohodí je pomocí myChange
+                    if (myCompare(myArray[j], myArray[j + 1]))
                     {
-                        int tmp = myArray[j + 1];
-                        myArray[j + 1] = myArray[j];
-                        myArray[j] = tmp;
+                        myChange(ref myArray[j], ref myArray[j + 1]);
                     }
                 }
             }
@@ -113,5 +111,19 @@ class Program
             Console.WriteLine("\n\nPro opakování programu stiskněte klávesu 'A'. Pro ukončení stiskněte jinou klávesu.");
             again = Console.ReadLine();
         }
+    }
+
+    // Funkce myCompare porovná dva prvky a vrací true, pokud je první větší než druhý
+    static bool myCompare(int a, int b)
+    {
+        return a > b;
+    }
+
+    // Funkce myChange prohodí hodnoty dvou proměnných pomocí reference
+    static void myChange(ref int a, ref int b)
+    {
+        int tmp = a;
+        a = b;
+        b = tmp;
     }
 }
