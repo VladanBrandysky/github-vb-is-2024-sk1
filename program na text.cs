@@ -14,7 +14,7 @@ class Program
         int ostatní = 0;
 
         // Definice samohlásek
-        string samo = "aeiouyáéíóúýěáí";
+        string samo = "aeiouyáéíóúůýěAEIOUYÁÉÍÓÚŮÝĚ";
 
         // Procházení každého znaku v textu
         foreach (char c in input)
