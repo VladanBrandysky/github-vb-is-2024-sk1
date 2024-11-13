@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Diagnostics;
 
 class Program
 {
@@ -75,6 +76,11 @@ class Program
                 Console.Write("{0}; ", myArray[i]);
             }
 
+            // Vytvoří objekt Stopwatch pro měření času
+            Stopwatch stopwatch = new Stopwatch();
+            // Spustí měření času
+            stopwatch.Start();
+
             // Seřazení pole vzestupně pomocí Bubble Sort algoritmu
             for (int i = 0; i < n - 1; i++)
             {
@@ -89,6 +95,12 @@ class Program
                     }
                 }
             }
+
+            // Zastaví měření času
+            stopwatch.Stop();
+
+            // Vypíše potřebný čas na seřazení pole pomocí Bubble Sort algoritmu
+            Console.WriteLine("\n\nPotřebný čas na seřazení pole pomocí algoritmu Bubble sort: {0} ms", stopwatch.ElapsedMilliseconds);
 
             // Vypíše seřazené pole
             Console.WriteLine("\n\nSeřazené pole:");
