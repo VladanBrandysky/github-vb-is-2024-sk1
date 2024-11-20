@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C#: C:\users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Program.cs Debug",
+            "name": "C#: Program.cs Debug",
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><program>.csproj"
@@ -25,7 +25,7 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "C:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Program.cs",
+            "program": "C#: Program.cs Debug",
             "args": [],
             "cwd": "${workspaceFolder}",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
