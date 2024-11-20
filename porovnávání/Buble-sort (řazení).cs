@@ -58,6 +58,8 @@ string again = "a";
             }
             Console.WriteLine();
             Console.WriteLine("Pro opakování programu stiskněte klávesu A");
-            again = Console.ReadLine();
+#pragma warning disable CS8600 // Converting null literal or possible null value to non-nullable type.
+    again = Console.ReadLine();
+#pragma warning restore CS8600 // Converting null literal or possible null value to non-nullable type.
 
-        }
+}

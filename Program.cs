@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Diagnostics;
 
-class Program
+internal class Program
 {
-    static void Main()
+    private static void Main()
     {
         // Proměnná "again" uchovává rozhodnutí uživatele, zda chce program spustit znovu
         string again = "a";
 
         // Cyklus "while" pokračuje, dokud uživatel zadá "a" (pro opakování programu)
-        while (again.ToLower() == "a")
+        while (again.Equals("a", StringComparison.CurrentCultureIgnoreCase))
         {
             // Vyčistí konzoli, aby se text zobrazoval čistě bez předchozích výstupů
             Console.Clear();
@@ -114,13 +114,13 @@ class Program
     }
 
     // Funkce myCompare porovná dva prvky a vrací true, pokud je první větší než druhý
-    static bool myCompare(int a, int b)
+    private static bool myCompare(int a, int b)
     {
         return a > b;
     }
 
     // Funkce myChange prohodí hodnoty dvou proměnných pomocí reference
-    static void myChange(ref int a, ref int b)
+    private static void myChange(ref int a, ref int b)
     {
         int tmp = a;
         a = b;

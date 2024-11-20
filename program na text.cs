@@ -1,8 +1,8 @@
 using System;
 
-class Program
+internal class Program
 {
-    static void Main()
+    private static void Main()
     {
         // Požádáme uživatele o vstupní text
         Console.Write("Zadejte text: ");

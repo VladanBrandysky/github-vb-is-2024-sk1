@@ -1,9 +1,9 @@
 using System;
 using System.Linq;
 
-class Program
+internal class Program
 {
-    static void Main()
+    private static void Main()
     {
         string again;
 
@@ -64,7 +64,7 @@ class Program
     }
 
     // Metoda MyArray generuje pole náhodných čísel
-    static int[] MyArray(int size, int min, int max)
+    private static int[] MyArray(int size, int min, int max)
     {
         Random rand = new Random();
         int[] array = new int[size];
