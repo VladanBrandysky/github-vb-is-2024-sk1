@@ -5,7 +5,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": "C#: C:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Program.cs Debug",
+            "name": "C#: C:\users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Program.cs Debug",
             "type": "dotnet",
             "request": "launch",
             "projectPath": "${workspaceFolder}/<relative-path-to-project-folder><program>.csproj"
