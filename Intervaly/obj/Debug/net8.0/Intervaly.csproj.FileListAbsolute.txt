@@ -1,0 +1,5 @@
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Intervaly\obj\Debug\net8.0\Intervaly.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Intervaly\obj\Debug\net8.0\Intervaly.AssemblyInfoInputs.cache
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Intervaly\obj\Debug\net8.0\Intervaly.AssemblyInfo.cs
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Intervaly\obj\Debug\net8.0\Intervaly.csproj.CoreCompileInputs.cache
+c:\Users\vlada\OneDrive\Plocha\github-vb-is-2024-sk1\Intervaly\obj\Debug\net8.0\Intervaly.sourcelink.json
